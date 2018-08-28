@@ -1,0 +1,7 @@
+{
+  "name": "AluraCar",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
