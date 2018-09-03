@@ -1,0 +1,14 @@
+
+
+
+<ion-content padding style=" margin-top: 50px;">
+	<ion-scroll scrollY="true" style="height:100vh">
+		<ion-list>
+			<button ion-item *ngFor="let carros of listaCarros" (click)="openPage(CarroescolhidoPage)">
+				{{carros}}
+			</button>
+		</ion-list>
+	</ion-scroll>
+	
+</ion-content>
+
